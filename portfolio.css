@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+:root {
+    --color-primary: #f9feff;
+    --color-primary-variant: #f1f2f262;
+    --color-white: #FFFFFF;
+    --color-dark: #122231;
+    --padding: 20px 30px;
+}
+
+body {
+    background-color: chocolate;
+}
+
+.head-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(125, 91, 69);
+    color: white;
+    padding: var(--padding);
+}
+
+
+.head-section .home {
+display: flex;
+justify-content: right;
+gap: 20px;
+text-align: center;
+
+}
+
+.head-section .home a{
+    border: 2px solid chocolate;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.head-section .home a:hover{
+    /* padding-inline: 10px;   */
+    /* padding-block: 10px; */
+    transition: -2s ease-in;
+    border-color: crimson;
+    background-color: crimson;
+}
+
+
+.head-section .my-name h1 {
+    color: burlywood;
+}
+
+.head-section .lizzy-pat h2 {
+    font-style: italic;
+    /* font-size: 10px; */
+    color: rgb(233, 204, 204);
+
+
+}
+
+.head-section .home {
+    color: burlywood;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding)
+    /* gap: 30px; */
+}
+.hero-section .write-up {
+    color: cornsilk;
+}
+
+.hero-section h3 {
+    width: 800px;
+    margin-bottom: 50px;
+    font-size: 25px;  
+}
+
+
+.hero-section .image-section img {
+    width: 400px;
+    /* height: 0px; */
+    margin-top: 50px;
+    /* padding: 20px,30px; */
+    border: 1px solid;
+    border-radius: 70px;
+    
+}
+
+.about-me {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    color: burlywood;
+
+}
+
+/* .about-me .about {
+    border: solid rgb(108, 45, 45);
+    border-radius: 10px;
+    padding-inline: 30px;
+} */
+
+.about-list ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: var(--padding);
+    list-style-position: outside;
+    font-size: 22px;
+    list-style-type: disc;
+    /* width: 1000px; */
+    background-color: brown;
+    gap: 5px;
+    color: burlywood;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding);
+    background-color: coral;
+}
+
+/* .bottom-section {
+
+} */
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding);
+
+}
+
+.contact-section .contact {
+    color: burlywood;
+}
+
+.contact-section .contact-two {
+    color: burlywood;
+
+}
+
+.submit-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding);
+    font-size: 20px;
+    /* background-color: red;  */
+    
+}
+
+.submit-section .contact {
+    align-items: end;
+    justify-content: right;
+    color:rgb(87, 8, 8);
+    font-size: 20px;
+    display: flex;
+    border: solid brown;
+    box-sizing: 1000px;
+    background-color: burlywood;
+    /* border-top: 50px;
+    border-bottom: 50px; */
+    
+    /* position: relative;
+    bottom: 0;
+    right: 0; */
+}
+
+.submit-section .address-logo {
+    display: flex;
+
+}
+
+.submit-section .phone-logo {
+    display: flex;
+}
+
+.submit-section .email-logo {
+    display: flex;
+}
+
+.submit-section img {
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+    /* border: solid black; */
+    display: flex;
+}
+
+.submit-section form{
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.submit-section .full-name {
+    flex-direction: column;
+    
+}
+
+/* .submit-section p {
+    color: rgb(87, 8, 8);
+    font-style: oblique;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:left; */
+
+.submit-section .contact-us {
+    color: rgb(87, 8, 8);
+
+
+}
+
+.submit-section p {
+    color: rgb(87, 8, 8);
+    font-style: oblique;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+
+
+}
+
+.submit-section .full-name {
+    color: rgb(95, 11, 11);
+
+}
+
+.submit-section .email-address {
+    color: rgb(87, 8, 8);
+
+}
+
+.submit-section .mess-age {
+    color: rgb(87, 8, 8);
+
+}
+
+.submit-section .phone-number {
+    color: rgb(87, 8, 8);
+
+}
+
+input{
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media(max-width:768px){
+   .hero-section{
+    flex-direction: column;
+   }
+
+   .hero-section h3 {
+    width: 100%;
+}
+   .submit-section{
+    width: 100%;
+    flex-direction: column;
+}
+    .contact{
+    /* width: 100%; */
+    flex-direction: column;
+    
+}
+}
+
